@@ -1,0 +1,34 @@
+{
+  "name": "sample-nodejs-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "local": "cross-env NODE_ENV=local node app.js",
+    "prod": "cross-env NODE_ENV=prod node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sghaha/sample-nodejs-backend.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mysql"
+  ],
+  "author": "sghaha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sghaha/sample-nodejs-backend/issues"
+  },
+  "homepage": "https://github.com/sghaha/sample-nodejs-backend#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "http-graceful-shutdown": "^3.1.5",
+    "moment-timezone": "^0.5.34"
+  }
+}
